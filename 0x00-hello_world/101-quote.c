@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include <stdio.h>
 #define STDERR_FILENO 2
 
 /**
@@ -11,9 +11,7 @@
  */
 int main(void)
 {
-        const char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-        ssize_t len = 59;
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59;
 
-        write(STDERR_FILENO, msg, len);
-        return (1);
+	return (1);
 }
