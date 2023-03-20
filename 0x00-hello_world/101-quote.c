@@ -1,17 +1,13 @@
-#include <unistd.h>
 #include <stdio.h>
-#define STDERR_FILENO 2
-
+#include <unistd.h>
 /**
  * main - Entry point
  *
- * Description: Prints a message to the standard error stream
- *
- * Return: Always 1 (Error code)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	write(2; "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59)
-
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
 	return (1);
 }
