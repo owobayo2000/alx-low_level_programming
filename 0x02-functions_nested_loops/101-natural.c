@@ -4,22 +4,22 @@
  * main - Lists all the natural numbers below 1024 (excluded)
  * that are multiples of 3 or 5.
  *
- * Return: Always 0.
+ * Return: int.
  */
 
 int main(void)
 {
-	int sum = 0;
+	int multi = 0;
+	int res = 0;
 
-	for (int i = 0; i < 1024; i++)
+	while (multi < 1024)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		if (multi % 3 == 0 || multi % 5 == 0)
 		{
-			sum += i;
+			res += multi;
 		}
+		multi += 1;
 	}
-
-	printf("%d\n", sum);
-
+	printf("%d\n", res);
 	return (0);
 }
