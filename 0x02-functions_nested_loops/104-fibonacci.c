@@ -14,13 +14,13 @@ int main(void)
 
 	printf("%d, %d, ", a, b);
 
-	while (count <= 98)
+	while (count < 98)
 	{
 		c = a + b;
 		printf("%d, ", c);
 		a = b;
 		b = c;
-		count += 2;
+		count++;
 	}
 
 	printf("%d\n", a + b);
