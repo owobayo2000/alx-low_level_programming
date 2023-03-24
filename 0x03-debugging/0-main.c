@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Test function for positive of negative
- * Return: 0
- * */
+* main - Test function for positive of negative
+* Return: 0
+*/
 
 int main(void)
 {
@@ -14,4 +14,3 @@ int main(void)
 
 	return (0);
 }
- 
