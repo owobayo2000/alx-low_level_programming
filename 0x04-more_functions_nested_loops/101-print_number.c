@@ -3,7 +3,9 @@
 
 /**
  * print_number - prints an integer
+ *
  * @n: The integer to print
+ *
  * Return: void
  */
 
