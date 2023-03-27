@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * swap_in - Swaps the values of two integers.
+ * swap_int - Swaps the values of two integers.
  * @author Anisah
- * @a: swaps and stores address of b
- * @b: swaps and stores address of a
+ * @a: pointer to first value
+ * @b: pointer to second value
  *
  * This function swaps the values of the integers pointed to by a and b.
  * Return: 0
