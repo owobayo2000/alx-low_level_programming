@@ -3,15 +3,16 @@
 #include "main.h"
 
 /**
- * strdup - duplicate to new memory space location
- * @str: char
- * Return: 0
+ * _strdup - duplicate to new memory space location
+ * @str: string to duplicate
+ *
+ * Return: pointer to the copied string (Success), NULL (Error)
  */
 
 char *_strdup(char *str)
 {
 	char *duplicate;
-	int i, r = 0;
+	unsigned int i, r = 0;
 
 	if (str == NULL)
 		return (NULL);
