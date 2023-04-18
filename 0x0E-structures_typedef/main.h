@@ -5,8 +5,8 @@
  * Header file prototypes for 0x0E-structures_typedef
  */
 struct dog;
-typedef struct dog dog_t;
 
+typedef struct dog dog_t;
 int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
